@@ -26,11 +26,11 @@ Cảnh báo do model kích hoạt: Nấp sau di hài cổ vật! Boss sắp tung
 
 ![Dottore: Cảnh báo do model kích hoạt: Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt.](../media/boss/dottore/gallery/02-0024.jpg)
 
-## 03. 12.0s
+## 03. 7.0s
 
-Box, tracking và điểm state/mechanic trong replay.
+Box Dottore, Di Hài Cổ Nguyệt và vật thể mặt trăng; có cảnh báo từ model.
 
-![Dottore: Box, tracking và điểm state/mechanic trong replay](../media/boss/dottore/gallery/03-0060.jpg)
+![Dottore: Box Dottore, Di Hài Cổ Nguyệt và vật thể mặt trăng; có cảnh báo từ model](../media/boss/dottore/gallery/03-0035.jpg)
 
 ## 04. 14.2s
 
@@ -38,35 +38,35 @@ Cảnh báo do model kích hoạt: Boss sắp hút năng lượng nguyên tố h
 
 ![Dottore: Cảnh báo do model kích hoạt: Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!](../media/boss/dottore/gallery/04-0071.jpg)
 
-## 05. 25.0s
-
-Box, tracking và điểm state/mechanic trong replay.
-
-![Dottore: Box, tracking và điểm state/mechanic trong replay](../media/boss/dottore/gallery/05-0125.jpg)
-
-## 06. 40.0s
+## 05. 40.0s
 
 Box, tracking và điểm state/mechanic trong replay.
 
 ![Dottore: Box, tracking và điểm state/mechanic trong replay](../media/boss/dottore/gallery/06-0200.jpg)
 
-## 07. 55.0s
+## 06. 55.0s
 
 Box, tracking và điểm state/mechanic trong replay.
 
 ![Dottore: Box, tracking và điểm state/mechanic trong replay](../media/boss/dottore/gallery/07-0275.jpg)
 
-## 08. 70.0s
+## 07. 70.0s
 
 Box, tracking và điểm state/mechanic trong replay.
 
 ![Dottore: Box, tracking và điểm state/mechanic trong replay](../media/boss/dottore/gallery/08-0350.jpg)
 
-## 09. 85.0s
+## 08. 85.0s
 
 Box, tracking và điểm state/mechanic trong replay.
 
 ![Dottore: Box, tracking và điểm state/mechanic trong replay](../media/boss/dottore/gallery/09-0425.jpg)
+
+## 09. 92.0s
+
+Box Dottore trong cảnh chiến đấu; điểm trạng thái Boss tung chiêu.
+
+![Dottore: Box Dottore trong cảnh chiến đấu; điểm trạng thái Boss tung chiêu](../media/boss/dottore/gallery/05-0460.jpg)
 
 ## 10. 100.0s
 

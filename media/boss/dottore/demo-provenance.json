@@ -228,22 +228,16 @@
       "caption": "Cảnh báo do model kích hoạt: Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
     },
     {
-      "file": "03-0060.jpg",
-      "frame_index": 60,
-      "time_seconds": 12.0,
-      "caption": "Box, tracking và điểm state/mechanic trong replay"
+      "file": "03-0035.jpg",
+      "frame_index": 35,
+      "time_seconds": 7.0,
+      "caption": "Box Dottore, Di Hài Cổ Nguyệt và vật thể mặt trăng; có cảnh báo từ model"
     },
     {
       "file": "04-0071.jpg",
       "frame_index": 71,
       "time_seconds": 14.2,
       "caption": "Cảnh báo do model kích hoạt: Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
-    },
-    {
-      "file": "05-0125.jpg",
-      "frame_index": 125,
-      "time_seconds": 25.0,
-      "caption": "Box, tracking và điểm state/mechanic trong replay"
     },
     {
       "file": "06-0200.jpg",
@@ -268,6 +262,12 @@
       "frame_index": 425,
       "time_seconds": 85.0,
       "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "05-0460.jpg",
+      "frame_index": 460,
+      "time_seconds": 92.0,
+      "caption": "Box Dottore trong cảnh chiến đấu; điểm trạng thái Boss tung chiêu"
     },
     {
       "file": "10-0500.jpg",

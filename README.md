@@ -96,13 +96,13 @@ Suy luận raw từ phiên `20261108-233718-7e7c7523` bằng checkpoint đã gá
 
 ![Demo Dottore](media/boss/dottore/gallery/01-0015.jpg)
 
-**12.0s — Box, tracking và điểm state/mechanic trong replay.**
+**7.0s — Box Dottore, Di Hài Cổ Nguyệt và vật thể mặt trăng; có cảnh báo từ model.**
 
-![Demo Dottore](media/boss/dottore/gallery/03-0060.jpg)
+![Demo Dottore](media/boss/dottore/gallery/03-0035.jpg)
 
-**25.0s — Box, tracking và điểm state/mechanic trong replay.**
+**92.0s — Box Dottore trong cảnh chiến đấu; điểm trạng thái Boss tung chiêu.**
 
-![Demo Dottore](media/boss/dottore/gallery/05-0125.jpg)
+![Demo Dottore](media/boss/dottore/gallery/05-0460.jpg)
 
 **[Xem toàn bộ ảnh Dottore và tải video](docs/dottore-gallery.md)**. Replay offline; thông báo có thể sai hoặc muộn, chưa phải benchmark độc lập.
 
