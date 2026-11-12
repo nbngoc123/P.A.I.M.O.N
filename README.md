@@ -33,17 +33,48 @@ Hai bài toán Map và Boss Vision có luồng xử lý riêng. Sơ đồ mô t�
 
 **Boss dùng trong đợt giới thiệu: Thằn Lằn Ánh Trăng Bức Xạ.**
 
-[![Suy luận Boss: box, tracking, điểm sự kiện và cảnh báo](media/boss/lizard-inference-poster.png)](media/boss/lizard-raw-inference.mp4)
+Ảnh suy luận xem trực tiếp trên GitHub, trích từ nhiều thời điểm trong cùng phiên. Bấm vào ảnh để xem bản lớn.
 
-**[Mở / tải video suy luận](media/boss/lizard-raw-inference.mp4)** · [Nguồn và cấu hình demo](media/boss/demo-provenance.json)
+**0.8s — Mở đầu: box Boss, vật thể và cảnh báo vào cơ chế.**
 
-Video được dựng bằng suy luận lại video raw của phiên `20261111-235058-e2e170d8`, với checkpoint đã được gán trong profile. Box, điểm state/mechanic và cảnh báo được tạo từ đầu ra mô hình cùng chính sách cảnh báo; không lấy nhãn thời gian để giả làm dự đoán.
+![Mở đầu: box Boss, vật thể và cảnh báo vào cơ chế](media/boss/gallery/01-0008.jpg)
+
+**1.5s — Cảnh báo phá hủy khiên và điểm mechanic.**
+
+![Cảnh báo phá hủy khiên và điểm mechanic](media/boss/gallery/02-0015.jpg)
+
+**14.7s — Cảnh báo chuẩn bị hồi máu.**
+
+![Cảnh báo chuẩn bị hồi máu](media/boss/gallery/04-0147.jpg)
+
+**32.0s — Box và trạng thái ở góc nhìn khác.**
+
+![Box và trạng thái ở góc nhìn khác](media/boss/gallery/06-0320.jpg)
+
+**68.3s — Box, điểm trạng thái và cảnh báo cuối chu kỳ.**
+
+![Box, điểm trạng thái và cảnh báo cuối chu kỳ](media/boss/gallery/09-0683.jpg)
+
+**71.7s — Cơ chế lặp lại: cảnh báo phá hủy khiên.**
+
+![Cơ chế lặp lại: cảnh báo phá hủy khiên](media/boss/gallery/10-0717.jpg)
+
+**[Xem toàn bộ 12 ảnh suy luận](docs/boss-gallery.md)** · [Nguồn và cấu hình demo](media/boss/demo-provenance.json)
+
+<details>
+<summary>Tải video đầy đủ (120,2 giây)</summary>
+
+[Download MP4](https://raw.githubusercontent.com/nbngoc123/P.A.I.M.O.N/main/media/boss/lizard-raw-inference.mp4). Video khoảng 52 MB; có thể tải về để xem khi trang file GitHub không hiển thị bản xem trước.
+
+</details>
+
+Bộ ảnh được trích từ video dựng bằng suy luận lại video raw của phiên `20261111-235058-e2e170d8`, với checkpoint đã được gán trong profile. Box, điểm state/mechanic và cảnh báo được tạo từ đầu ra mô hình cùng chính sách cảnh báo; không lấy nhãn thời gian để giả làm dự đoán.
 
 - Box: Boss và vật thể cơ chế theo các lớp detector đã học.
 - Tracking: liên kết đối tượng giữa các frame, giữ ngữ cảnh chuyển động.
 - Temporal: kết hợp chuỗi ảnh, đặc trưng đối tượng và các vùng crop đã cấu hình.
 - Cảnh báo: ngưỡng bật/tắt, thời gian xác nhận và cooldown theo từng nhãn.
-- Overlay trong video là lớp vẽ khi replay offline; đây chưa phải video quay trực tiếp desktop overlay khi chơi.
+- Overlay trong ảnh là lớp vẽ khi replay offline; đây chưa phải ảnh chụp desktop overlay khi chơi trực tiếp.
 
 **Giới hạn:** nguồn demo có thể trùng dữ liệu huấn luyện. Video cho thấy luồng suy luận hoạt động; không chứng minh độ chính xác trên phiên độc lập hoặc FPS Live. Điểm hiển thị là điểm model, không phải xác suất đã hiệu chuẩn. [Chi tiết Boss Vision](docs/boss-vision.md).
 
@@ -77,6 +108,24 @@ Map giải quyết việc nối **ảnh minimap đang thấy → vị trí trên
 - Chế độ thu thập đặc sản riêng: đánh dấu các điểm trong bán kính và chuyển mục tiêu tiếp theo.
 
 Đánh dấu theo bán kính là **ước lượng đã ghé điểm**, chưa phải nhận biết người chơi nhặt thành công. Hướng XY không phải tuyến đi tối ưu tránh vật cản. Video gameplay Map sẽ được bổ sung sau; ảnh trên là ảnh giao diện đang có. [Chi tiết và các cảnh cần quay](docs/map.md).
+
+### Các góc nhìn giao diện Map
+
+**Tầng ngầm trong hệ tọa độ chung.** Ảnh giao diện ghép tầng; trạng thái chờ minimap không phải bằng chứng định vị thành công trong hang.
+
+![Giao diện tầng bản đồ](media/map/map-floor.png)
+
+**Cấu hình HUD điều hướng và mục tiêu.**
+
+![Cấu hình HUD điều hướng](media/map/navigation-settings.png)
+
+**Chế độ thu thập đặc sản.** Chọn loại, bán kính và thời gian chờ; đánh dấu theo khoảng cách chưa xác nhận đã nhặt vật phẩm.
+
+![Cấu hình thu thập đặc sản](media/map/collection-settings.png)
+
+**Kiểm tra bố cục mũi tên ở nhiều góc.** Đây là ảnh kiểm tra tổng hợp, không phải kết quả định vị gameplay.
+
+![Kiểm tra bố cục điều hướng](media/map/navigation-layout-test.png)
 
 ## Checkpoint, phần mềm và trạng thái
 

@@ -31,6 +31,10 @@ Demo công khai chỉ dùng Thằn Lằn Ánh Trăng Bức Xạ. Các điểm st
 
 Video là replay offline có overlay được vẽ vào frame. Không dùng thời gian encode video để báo tốc độ Live. Phần capture trực tiếp game và overlay desktop đã có trong ứng dụng nội bộ; video quay trực tiếp sẽ là một loại minh chứng riêng.
 
+## Bộ ảnh suy luận
+
+[Xem 12 ảnh từ nhiều thời điểm của phiên Thằn Lằn](boss-gallery.md), gồm box, tracking, điểm trạng thái và các cảnh báo do model kích hoạt. Ảnh lấy nguyên khung từ replay, không phải minh họa vẽ lại.
+
 ## Huấn luyện và đánh giá
 
 Detector được học từ box đã duyệt; temporal được học từ nhãn theo thời gian, cùng ảnh và tín hiệu đi kèm. Có thể cấu hình BCE có mask, trọng số từng lớp, mẫu âm khó, cân bằng đoạn và ưu tiên đầu dấu hiệu.

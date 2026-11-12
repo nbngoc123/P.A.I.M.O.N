@@ -1,0 +1,78 @@
+{
+  "source": "../lizard-raw-inference.mp4",
+  "kind": "frames_extracted_from_offline_model_replay",
+  "frames": [
+    {
+      "file": "01-0008.jpg",
+      "frame_index": 8,
+      "time_seconds": 0.8,
+      "title": "Mở đầu: box Boss, vật thể và cảnh báo vào cơ chế"
+    },
+    {
+      "file": "02-0015.jpg",
+      "frame_index": 15,
+      "time_seconds": 1.5,
+      "title": "Cảnh báo phá hủy khiên và điểm mechanic"
+    },
+    {
+      "file": "03-0070.jpg",
+      "frame_index": 70,
+      "time_seconds": 7.0,
+      "title": "Theo dõi Boss trong hiệu ứng chiến đấu"
+    },
+    {
+      "file": "04-0147.jpg",
+      "frame_index": 147,
+      "time_seconds": 14.7,
+      "title": "Cảnh báo chuẩn bị hồi máu"
+    },
+    {
+      "file": "05-0220.jpg",
+      "frame_index": 220,
+      "time_seconds": 22.0,
+      "title": "Các điểm trạng thái sau khi chuyển cơ chế"
+    },
+    {
+      "file": "06-0320.jpg",
+      "frame_index": 320,
+      "time_seconds": 32.0,
+      "title": "Box và trạng thái ở góc nhìn khác"
+    },
+    {
+      "file": "07-0456.jpg",
+      "frame_index": 456,
+      "time_seconds": 45.6,
+      "title": "Cảnh báo từ một thời điểm khác trong phiên"
+    },
+    {
+      "file": "08-0580.jpg",
+      "frame_index": 580,
+      "time_seconds": 58.0,
+      "title": "Theo dõi đối tượng giữa phiên chiến đấu"
+    },
+    {
+      "file": "09-0683.jpg",
+      "frame_index": 683,
+      "time_seconds": 68.3,
+      "title": "Box, điểm trạng thái và cảnh báo cuối chu kỳ"
+    },
+    {
+      "file": "10-0717.jpg",
+      "frame_index": 717,
+      "time_seconds": 71.7,
+      "title": "Cơ chế lặp lại: cảnh báo phá hủy khiên"
+    },
+    {
+      "file": "11-0900.jpg",
+      "frame_index": 900,
+      "time_seconds": 90.0,
+      "title": "Suy luận trong giai đoạn cuối phiên"
+    },
+    {
+      "file": "12-1120.jpg",
+      "frame_index": 1120,
+      "time_seconds": 112.0,
+      "title": "Box và điểm model gần cuối bản ghi"
+    }
+  ]
+}
