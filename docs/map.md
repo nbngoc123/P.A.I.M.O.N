@@ -92,7 +92,7 @@ Chế độ này có mục tiêu và tiến độ riêng với tracking thườn
 | Phản hồi HUD | FPS xử lý, độ trễ và tuổi vị trí, không chỉ FPS capture |
 | Thu thập | Lượt đánh dấu, số điểm, đổi mục tiêu và hoàn tác |
 
-Hiện có ảnh giao diện và kiểm chứng tổng hợp. Các ảnh đó không thay thế video gameplay đối chứng. Chưa công bố một giá trị sai số vị trí/FPS đúng cho mọi máy hoặc mọi vùng.
+Đã có hai bản ghi gameplay raw chạy lại bằng worker định vị và HUD gốc, cùng ảnh giao diện và kiểm chứng tổng hợp. Replay này chưa cung cấp tọa độ đối chứng để đo sai số tuyệt đối. Chưa công bố một giá trị sai số vị trí/FPS đúng cho mọi máy hoặc mọi vùng.
 
 ## Ảnh hiện có
 
@@ -104,11 +104,10 @@ Hiện có ảnh giao diện và kiểm chứng tổng hợp. Các ảnh đó kh
 
 Ảnh kiểm tra bố cục tổng hợp, dùng để kiểm tra mũi tên/chữ có chồng nhau; không chứng minh hướng định vị thật.
 
-## Các cảnh cần quay để bổ sung demo thật
+## Demo từ video raw đã bổ sung
 
-1. **Định vị và bám vị trí, 30–45 giây:** mở game, bật HUD, di chuyển rồi quay camera; để thấy minimap game và HUD cùng lúc.
-2. **Đi tới một ghim, 30–45 giây:** chọn ghim, cho thấy icon/khoảng cách/hướng đổi khi tiến gần và quay trái/phải.
-3. **Thu thập đặc sản, 30–60 giây:** chọn loại, bật chế độ thu thập, đi vào bán kính một cụm, cho thấy cụm bị đánh dấu và mục tiêu chuyển; thử hoàn tác một lần.
-4. **Tầng và tìm lại, tùy điều kiện:** đi qua cửa hang/chuyển tầng hoặc dịch chuyển xa; để thấy trạng thái chờ/tìm lại và phục hồi vị trí.
+[Xem bộ ảnh và ba video: định vị, điều hướng, thu thập/hoàn tác](map-gallery.md).
 
-Quay toàn bộ game với overlay, giữ độ phân giải và UI scale ổn định. Mỗi clip ghi ngày, phiên bản tool và khu vực. Nếu không muốn công khai UID/tên tài khoản, che trước khi quay. Các clip này chưa có trong bản giới thiệu ban đầu.
+Phiên `20261112-210751-21172158` dùng cho định vị/bám vị trí; phiên `20261112-211224-4678a89b` dùng cho điều hướng tới ghim và thu thập đặc sản. HUD được dựng từ code Qt gốc bằng kết quả định vị, không lấy tọa độ từ game memory. Tiến độ demo tách riêng khỏi hồ sơ chơi.
+
+Đã minh họa đánh dấu ghim trong bán kính, chuyển mục tiêu và hoàn tác. Chưa minh chứng định vị liên tục qua hang/chuyển tầng, tốc độ Live hoặc đồng bộ thao tác tool từ bản ghi OBS. Các lựa chọn chức năng được thực hiện khi replay.

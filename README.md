@@ -107,7 +107,31 @@ Map giải quyết việc nối **ảnh minimap đang thấy → vị trí trên
 - HUD bản đồ, điều hướng theo mục tiêu và cấu hình giao diện/phím tắt.
 - Chế độ thu thập đặc sản riêng: đánh dấu các điểm trong bán kính và chuyển mục tiêu tiếp theo.
 
-Đánh dấu theo bán kính là **ước lượng đã ghé điểm**, chưa phải nhận biết người chơi nhặt thành công. Hướng XY không phải tuyến đi tối ưu tránh vật cản. Video gameplay Map sẽ được bổ sung sau; ảnh trên là ảnh giao diện đang có. [Chi tiết và các cảnh cần quay](docs/map.md).
+Đánh dấu theo bán kính là **ước lượng đã ghé điểm**, chưa phải nhận biết người chơi nhặt thành công. Hướng XY không phải tuyến đi tối ưu tránh vật cản. Đã có demo replay từ gameplay raw ở bên dưới; ảnh trên là giao diện catalog. [Chi tiết và các cảnh cần quay](docs/map.md).
+
+### Demo Map từ video raw
+
+Hai bản ghi gameplay được chạy lại qua bộ định vị và Map/HUD hiện có. Các thao tác chọn mục tiêu, bật thu thập và hoàn tác được thực hiện khi replay; không cần OBS ghi được overlay desktop.
+
+**Định vị và bám vị trí**
+
+![Định vị và bám vị trí](media/map/replay/tracking/01-003.0s.jpg)
+
+![Định vị và bám vị trí](media/map/replay/tracking/07-030.0s.jpg)
+
+**Điều hướng tới ghim**
+
+![Điều hướng tới ghim](media/map/replay/navigation/02-007.5s.jpg)
+
+![Điều hướng tới ghim](media/map/replay/navigation/05-021.0s.jpg)
+
+**Thu thập đặc sản và hoàn tác**
+
+![Thu thập đặc sản và hoàn tác](media/map/replay/collection/event-mark.jpg)
+
+![Thu thập đặc sản và hoàn tác](media/map/replay/collection/event-undo.jpg)
+
+**[Xem toàn bộ ảnh và tải ba video Map](docs/map-gallery.md)**. Replay offline; khoảng cách XY theo đơn vị map. Thu thập đánh dấu theo bán kính, chưa nhận biết nhặt vật phẩm.
 
 ### Các góc nhìn giao diện Map
 

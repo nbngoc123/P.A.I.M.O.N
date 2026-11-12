@@ -1,0 +1,103 @@
+{
+  "session": "20261112-210751-21172158",
+  "kind": "offline_raw_replay",
+  "mode": "tracking",
+  "localization_summary": {
+    "session": "20261112-210751-21172158",
+    "raw_name": "2026-11-12 21-07-51.mkv",
+    "source_fps": 60.0,
+    "source_frames": 2353,
+    "duration_seconds": 39.21666666666667,
+    "sample_fps": 4.0,
+    "samples": 157,
+    "accepted": 155,
+    "status_counts": {
+      "matched": 46,
+      "tracked": 109,
+      "rejected": 2
+    },
+    "revision": "priority-teyvat-detail-floors-7a0a00040009",
+    "source_sha256": "a991dce79ea716332cf95fccf1e42ce47d8b60b1a3bdb67dbea49eaf072fa3d9",
+    "roi": [
+      61,
+      19,
+      212,
+      211
+    ],
+    "geometry": {
+      "schema_version": 1,
+      "shape": "circle",
+      "coordinate_space": "original_frame",
+      "image_width": 1920,
+      "image_height": 1080,
+      "center": [
+        167.0,
+        124.5
+      ],
+      "radius": 105.5,
+      "edge_inset": 7.385000000000001,
+      "exclude_rects": [],
+      "method": "user_positioned_circle"
+    },
+    "elapsed_seconds": 169.19847860001028,
+    "kind": "offline_raw_replay_using_existing_Tracker_localization_worker",
+    "clock": "Replay media time for temporal state, flow age and pose age. Wall time separately measured.",
+    "warning": "Not a live FPS benchmark. No reference coordinates or fabricated positions injected."
+  },
+  "target": null,
+  "selected_label_id": 697,
+  "selection": "Real catalog pin/type selected for demonstration after inspecting replay route.",
+  "actions": [],
+  "mark_batches": [],
+  "undo_executed": false,
+  "screenshots": [
+    {
+      "file": "01-003.0s.jpg",
+      "time_seconds": 3.0,
+      "status": "tracked"
+    },
+    {
+      "file": "02-007.5s.jpg",
+      "time_seconds": 7.5,
+      "status": "matched"
+    },
+    {
+      "file": "03-012.0s.jpg",
+      "time_seconds": 12.0,
+      "status": "tracked"
+    },
+    {
+      "file": "04-016.5s.jpg",
+      "time_seconds": 16.5,
+      "status": "matched"
+    },
+    {
+      "file": "05-021.0s.jpg",
+      "time_seconds": 21.0,
+      "status": "matched"
+    },
+    {
+      "file": "06-025.5s.jpg",
+      "time_seconds": 25.5,
+      "status": "tracked"
+    },
+    {
+      "file": "07-030.0s.jpg",
+      "time_seconds": 30.0,
+      "status": "tracked"
+    },
+    {
+      "file": "08-034.5s.jpg",
+      "time_seconds": 34.5,
+      "status": "tracked"
+    }
+  ],
+  "output_frames": 1177,
+  "output_fps": 30,
+  "renderer": "Original gvl.overlay.OverlayController, NavigationHUD, TargetNavigationHUD, MapCanvas",
+  "collection": "Original CollectionSession, isolated replay ledger. Proximity marking is not item-pickup recognition.",
+  "warning": "Offline replay. Scripted tool selections, not actions captured from the player. No fabricated coordinates.",
+  "video_sha256": "8d82dde2a58bd5b6ab6787f48c9838a489164bf1906b853c5e7d1ac232ce352f",
+  "video_bytes": 24240200,
+  "raw_sha256": "663bf75c38f56574e7b6b4aace6e282af5215e10058cb8d028dc5756918b28eb"
+}
