@@ -1,0 +1,1 @@
+{"schema_version": 1, "profile_id": "than_lan_anh_trang_buc_xa_v1", "mechanic": "dap_buoc_hu_khong", "display_name": "Đạp bước hư không", "signature": [{"class": "da_neo_mat_trang", "present": true}, {"class": "than_lan_anh_trang_buc_xa", "present": true}]}

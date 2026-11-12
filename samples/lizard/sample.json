@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "kind": "showcase_sample_not_training_benchmark",
+  "boss": "Thằn Lằn Ánh Trăng Bức Xạ",
+  "source_session_id": "20261111-235058-e2e170d8",
+  "source_dataset": "boss-dataset-b5f271b2d622-full-event2",
+  "source_video_sha256": "38602bb82c5238afac5a176d3a0702e6bea9931abb0c922e7d513683fee9e580",
+  "original_fps": 10.0,
+  "source_dataset_records": 1202,
+  "source_dataset_counts": {
+    "labelled": 1081,
+    "unlabelled": 121,
+    "uncertain": 0,
+    "positive": 1061,
+    "negative": 20
+  },
+  "source_dataset_temporal_events": 36,
+  "frames": 27,
+  "windows": [
+    {
+      "id": "window-01",
+      "start_ms": 1000.0,
+      "end_ms": 1800.0
+    },
+    {
+      "id": "window-02",
+      "start_ms": 42000.0,
+      "end_ms": 43000.0
+    },
+    {
+      "id": "window-03",
+      "start_ms": 82000.0,
+      "end_ms": 83000.0
+    }
+  ],
+  "event_overlap_records": 7,
+  "timestamps": "Original PTS/time_base and media_time_ms, not concatenated.",
+  "image_policy": "Original exported pixels preserved; source gameplay can contain visible UID.",
+  "sample_use": "Inspect annotation structure. Not sufficient for training or independent evaluation."
+}

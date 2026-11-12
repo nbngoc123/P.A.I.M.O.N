@@ -1,0 +1,16 @@
+{
+  "detector.pt": {
+    "source_run": "than_lan_anh_trang_buc_xa_v1-20261112-140726",
+    "original_sha256": "354ee1ac47c06dd0f178a0d9791c0a58d7376c6067b8dfdb3044c7632bea013b",
+    "published_sha256": "3186de060e0622af57a127a3db5941b1f60080511ba15faf7a8b317606ec67a1",
+    "bytes": 5494862,
+    "note": "Same learned weights; local path metadata sanitized before publication."
+  },
+  "temporal.pt": {
+    "source_run": "than_lan_anh_trang_buc_xa_v1-20261112-190550",
+    "original_sha256": "e73f9b31128bc3234d50c3e1735e82bd3b4e840b2d6cf9f7113e5e092da0ed67",
+    "published_sha256": "1b7ebbd72e29aac459411d72de0565ca35a22c1ac317e3db517152459daf07d4",
+    "bytes": 90736071,
+    "note": "Same learned weights; local path metadata sanitized before publication."
+  }
+}

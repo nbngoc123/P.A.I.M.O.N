@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "regions": [
+    {
+      "key": "full_scene",
+      "label": "Toàn cảnh trận đấu",
+      "role": "full_frame",
+      "roi": null
+    },
+    {
+      "key": "boss_status",
+      "label": "Tên / thanh HP Boss",
+      "role": "ui_reference",
+      "roi": null,
+      "reference_sha256": "ac533025b8d7aaba8fd8d7049e478d72faeae18fd138c4234ea9a9ca510b6cfd",
+      "reference_name": "reference.jpg",
+      "preset_id": "abyss_1920x1080_v1"
+    },
+    {
+      "key": "mechanic_notice",
+      "label": "Thông báo / chỉ báo cơ chế",
+      "role": "ui_reference",
+      "roi": null
+    },
+    {
+      "key": "hud_exclusion",
+      "label": "UI cần bỏ qua",
+      "role": "exclusion_reference",
+      "roi": null,
+      "rois": [],
+      "reference_sha256": "ac533025b8d7aaba8fd8d7049e478d72faeae18fd138c4234ea9a9ca510b6cfd",
+      "reference_name": "reference.jpg",
+      "preset_id": "abyss_1920x1080_v1"
+    },
+    {
+      "key": "boss_name",
+      "label": "Tên / danh hiệu Boss",
+      "role": "ui_reference",
+      "roi": null,
+      "reference_sha256": "ac533025b8d7aaba8fd8d7049e478d72faeae18fd138c4234ea9a9ca510b6cfd",
+      "reference_name": "reference.jpg",
+      "preset_id": "abyss_1920x1080_v1"
+    },
+    {
+      "key": "boss_hp",
+      "label": "Thanh HP / cấp Boss",
+      "role": "ui_reference",
+      "roi": null,
+      "reference_sha256": "ac533025b8d7aaba8fd8d7049e478d72faeae18fd138c4234ea9a9ca510b6cfd",
+      "reference_name": "reference.jpg",
+      "preset_id": "abyss_1920x1080_v1"
+    },
+    {
+      "key": "boss_timer",
+      "label": "Đồng hồ trận đấu",
+      "role": "ui_reference",
+      "roi": null,
+      "reference_sha256": "ac533025b8d7aaba8fd8d7049e478d72faeae18fd138c4234ea9a9ca510b6cfd",
+      "reference_name": "reference.jpg",
+      "preset_id": "abyss_1920x1080_v1"
+    },
+    {
+      "key": "ui_ben_phai",
+      "label": "Các chức năng chính",
+      "role": "exclusion_reference",
+      "roi": null,
+      "rois": [],
+      "reference_sha256": "c0e4b13dcf70432bc9c364efdbf6575ed1ed5e7306f5bb886e4ffa395adaab3d",
+      "reference_name": "000000204.jpg",
+      "configured_at": "2026-11-07T10:58:39.155+00:00"
+    },
+    {
+      "key": "skill_char",
+      "label": "Kĩ năng nhân vật",
+      "role": "exclusion_reference",
+      "roi": null,
+      "rois": [],
+      "reference_sha256": "593c1bc5f1bc7176bc5d685284c735abf8b6d01f6778f9fb1d21c994409bff81",
+      "reference_name": "000000006.jpg",
+      "configured_at": "2026-11-08T08:48:39.766+00:00"
+    },
+    {
+      "key": "hao_khi",
+      "label": "hào khí",
+      "role": "ui_reference",
+      "roi": null,
+      "reference_sha256": "211354cf8fe02480dd6846154c7eb2521f36a070a9bd89b53c0698597a444116",
+      "reference_name": "000000006.jpg",
+      "configured_at": "2026-11-11T16:07:20.508+00:00"
+    },
+    {
+      "key": "khieng_la_chan",
+      "label": "Khiêng",
+      "role": "ui_reference",
+      "roi": {
+        "x": 756,
+        "y": 91,
+        "width": 406,
+        "height": 19,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "reference_sha256": "24b363c1ffd4c690a213b1240a4b2faeef474829e181c463b46202af5a4e1455",
+      "reference_name": "000000300.jpg",
+      "configured_at": "2026-11-12T00:47:20.387+00:00"
+    },
+    {
+      "key": "ken_buc_xa",
+      "label": "Kén bức xạ",
+      "role": "ui_reference",
+      "roi": {
+        "x": 803,
+        "y": 940,
+        "width": 48,
+        "height": 54,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "reference_sha256": "08eb494d55f53364c445ef8aeab17c392c509f48666de1b0caae4a163b1a69fc",
+      "reference_name": "000001680.jpg",
+      "configured_at": "2026-11-12T00:51:38.600+00:00"
+    }
+  ],
+  "profile_id": "than_lan_anh_trang_buc_xa_v1",
+  "crop_registry": [
+    {
+      "key": "ken_buc_xa",
+      "label": "Kén bức xạ",
+      "role": "ui_reference",
+      "enabled": true,
+      "roi_normalized": [
+        0.41822916666666665,
+        0.8703703703703703,
+        0.025,
+        0.05
+      ]
+    },
+    {
+      "key": "khieng_la_chan",
+      "label": "Khiêng",
+      "role": "ui_reference",
+      "enabled": true,
+      "roi_normalized": [
+        0.39375,
+        0.08425925925925926,
+        0.21145833333333333,
+        0.017592592592592594
+      ]
+    }
+  ],
+  "crop_registry_sha256": "a9e2f5a16968e22a4ac094c32a9158f64b1fdbeb51f36bcb953a542bd140a2d7"
+}

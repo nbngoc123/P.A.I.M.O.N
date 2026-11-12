@@ -1,0 +1,9 @@
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.txt text eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary
+# Dataset hashes describe exact bytes, including original line endings.
+/samples/lizard/** -text

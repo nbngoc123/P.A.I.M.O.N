@@ -1,0 +1,19 @@
+# This repository is a public showcase, never the private source workspace.
+.obsidian/
+.venv*/
+__pycache__/
+*.py
+*.pyc
+*.pt
+*.pth
+*.onnx
+*.engine
+*.exe
+*.dll
+*.mkv
+*.zip
+config.local.json
+*.local.json
+.env*
+release-assets/
+private/

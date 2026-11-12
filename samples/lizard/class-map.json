@@ -1,0 +1,14 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "class_name": "than_lan_anh_trang_buc_xa",
+      "display_name": "Thằn lằn ánh trăng bức xạ"
+    },
+    {
+      "id": 1,
+      "class_name": "da_neo_mat_trang",
+      "display_name": "Đá Neo Mặt Trăng"
+    }
+  ]
+}

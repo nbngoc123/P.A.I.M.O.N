@@ -1,0 +1,181 @@
+{
+  "boss": "Thằn lằn ánh trăng bức xạ",
+  "kind": "offline_raw_replay_with_live_inference_and_alert_manager",
+  "session_id": "20261111-235058-e2e170d8",
+  "raw_name": "2026-11-11 23-50-58.mkv",
+  "raw_sha256": "38602bb82c5238afac5a176d3a0702e6bea9931abb0c922e7d513683fee9e580",
+  "detector_sha256": "354ee1ac47c06dd0f178a0d9791c0a58d7376c6067b8dfdb3044c7632bea013b",
+  "temporal_sha256": "e73f9b31128bc3234d50c3e1735e82bd3b4e840b2d6cf9f7113e5e092da0ed67",
+  "detector_run": "than_lan_anh_trang_buc_xa_v1-20261112-140726",
+  "temporal_run": "than_lan_anh_trang_buc_xa_v1-20261112-190550",
+  "samples": 1202,
+  "sample_fps": 9.999999999999858,
+  "execution_device": "cpu",
+  "alerts": [
+    {
+      "time_seconds": 0.7,
+      "label": "vao_mech_khieng",
+      "events": [
+        "vao_mech_khieng"
+      ],
+      "family": "boss_state",
+      "probability": 0.9791214466094971,
+      "message": "Boss vào mech"
+    },
+    {
+      "time_seconds": 1.2,
+      "label": "dap_buoc_hu_khong",
+      "events": [
+        "dap_buoc_hu_khong"
+      ],
+      "family": "mechanic",
+      "probability": 0.9963414072990417,
+      "message": "Nhanh chóng phá hủy khiêng"
+    },
+    {
+      "time_seconds": 13.6,
+      "label": "dap_buoc_hu_khong",
+      "events": [
+        "dap_buoc_hu_khong"
+      ],
+      "family": "mechanic",
+      "probability": 0.8854952454566956,
+      "message": "Nhanh chóng phá hủy khiêng"
+    },
+    {
+      "time_seconds": 14.3,
+      "label": "khieng_bi_pha_huy",
+      "events": [
+        "khieng_bi_pha_huy"
+      ],
+      "family": "boss_state",
+      "probability": 0.7531418204307556,
+      "message": "Chuẩn bị hồi máu"
+    },
+    {
+      "time_seconds": 45.2,
+      "label": "khieng_bi_pha_huy",
+      "events": [
+        "khieng_bi_pha_huy"
+      ],
+      "family": "boss_state",
+      "probability": 0.8074812293052673,
+      "message": "Chuẩn bị hồi máu"
+    },
+    {
+      "time_seconds": 67.9,
+      "label": "khieng_bi_pha_huy",
+      "events": [
+        "khieng_bi_pha_huy"
+      ],
+      "family": "boss_state",
+      "probability": 0.7607970237731934,
+      "message": "Chuẩn bị hồi máu"
+    },
+    {
+      "time_seconds": 70.8,
+      "label": "vao_mech_khieng",
+      "events": [
+        "vao_mech_khieng"
+      ],
+      "family": "boss_state",
+      "probability": 0.9705095887184143,
+      "message": "Boss vào mech"
+    },
+    {
+      "time_seconds": 71.3,
+      "label": "dap_buoc_hu_khong",
+      "events": [
+        "dap_buoc_hu_khong"
+      ],
+      "family": "mechanic",
+      "probability": 0.9951522946357727,
+      "message": "Nhanh chóng phá hủy khiêng"
+    }
+  ],
+  "model_elapsed_ms_median": 253.17079992964864,
+  "warning": "Offline replay. Source may overlap training data. Not independent accuracy or live FPS evaluation. Alerts are model-triggered, not ground truth.",
+  "event_alerts": {
+    "global_cooldown_seconds": 0.5,
+    "schema_version": 2,
+    "policies": [
+      {
+        "event_id": "attack",
+        "family": "boss_state",
+        "priority": 0,
+        "enabled": false,
+        "threshold": 0.8,
+        "reset_threshold": 0.65,
+        "confirm_seconds": 0.4,
+        "cooldown_seconds": 8.0,
+        "message": "Attack."
+      },
+      {
+        "event_id": "idle_or_move",
+        "family": "boss_state",
+        "priority": 0,
+        "enabled": false,
+        "threshold": 0.8,
+        "reset_threshold": 0.65,
+        "confirm_seconds": 0.4,
+        "cooldown_seconds": 8.0,
+        "message": "Idle or move."
+      },
+      {
+        "event_id": "khieng_bi_pha_huy",
+        "family": "boss_state",
+        "priority": 0,
+        "enabled": true,
+        "threshold": 0.74,
+        "reset_threshold": 0.62,
+        "confirm_seconds": 0.0,
+        "cooldown_seconds": 18.0,
+        "message": "Chuẩn bị hồi máu"
+      },
+      {
+        "event_id": "troi_buoc_ken_buc_xa",
+        "family": "boss_state",
+        "priority": 0,
+        "enabled": true,
+        "threshold": 0.73,
+        "reset_threshold": 0.7,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 4.0,
+        "message": "Bị debuff chuẩn bị hồi máu"
+      },
+      {
+        "event_id": "tung_dap_buoc_hu_khong",
+        "family": "boss_state",
+        "priority": 0,
+        "enabled": true,
+        "threshold": 0.75,
+        "reset_threshold": 0.6,
+        "confirm_seconds": 0.4,
+        "cooldown_seconds": 8.0,
+        "message": "Chuẩn bị hồi máu"
+      },
+      {
+        "event_id": "vao_mech_khieng",
+        "family": "boss_state",
+        "priority": 0,
+        "enabled": true,
+        "threshold": 0.8,
+        "reset_threshold": 0.65,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 8.0,
+        "message": "Boss vào mech"
+      },
+      {
+        "event_id": "dap_buoc_hu_khong",
+        "family": "mechanic",
+        "priority": 0,
+        "enabled": true,
+        "threshold": 0.7,
+        "reset_threshold": 0.65,
+        "confirm_seconds": 0.4,
+        "cooldown_seconds": 8.0,
+        "message": "Nhanh chóng phá hủy khiêng"
+      }
+    ]
+  }
+}
