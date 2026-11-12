@@ -9,7 +9,7 @@
   "detector_run": "than_lan_anh_trang_buc_xa_v1-20261112-140726",
   "temporal_run": "than_lan_anh_trang_buc_xa_v1-20261112-190550",
   "samples": 1202,
-  "sample_fps": 9.999999999999858,
+  "sample_fps": 10.0,
   "execution_device": "cpu",
   "alerts": [
     {
