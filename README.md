@@ -31,7 +31,9 @@ Hai bài toán Map và Boss Vision có luồng xử lý riêng. Sơ đồ mô t�
 
 ## Demo Boss Vision
 
-**Boss dùng trong đợt giới thiệu: Thằn Lằn Ánh Trăng Bức Xạ.**
+**Hai Boss minh họa: Thằn Lằn Ánh Trăng Bức Xạ và Dottore.**
+
+### Thằn Lằn Ánh Trăng Bức Xạ
 
 Ảnh suy luận xem trực tiếp trên GitHub, trích từ nhiều thời điểm trong cùng phiên. Bấm vào ảnh để xem bản lớn.
 
@@ -78,6 +80,32 @@ Bộ ảnh được trích từ video dựng bằng suy luận lại video raw c
 
 **Giới hạn:** nguồn demo có thể trùng dữ liệu huấn luyện. Video cho thấy luồng suy luận hoạt động; không chứng minh độ chính xác trên phiên độc lập hoặc FPS Live. Điểm hiển thị là điểm model, không phải xác suất đã hiệu chuẩn. [Chi tiết Boss Vision](docs/boss-vision.md).
 
+### Dottore — box, cơ chế và cảnh báo
+
+Suy luận raw từ phiên `20261108-233718-7e7c7523` bằng checkpoint đã gán trong profile Dottore. Các cảnh dưới đây lấy trực tiếp từ video đầu ra; cảnh báo phát từ điểm model và chính sách trong profile.
+
+**4.8s — Cảnh báo do model kích hoạt: Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt..**
+
+![Demo Dottore](media/boss/dottore/gallery/02-0024.jpg)
+
+**14.2s — Cảnh báo do model kích hoạt: Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!.**
+
+![Demo Dottore](media/boss/dottore/gallery/04-0071.jpg)
+
+**3.0s — Box, tracking và điểm state/mechanic trong replay.**
+
+![Demo Dottore](media/boss/dottore/gallery/01-0015.jpg)
+
+**12.0s — Box, tracking và điểm state/mechanic trong replay.**
+
+![Demo Dottore](media/boss/dottore/gallery/03-0060.jpg)
+
+**25.0s — Box, tracking và điểm state/mechanic trong replay.**
+
+![Demo Dottore](media/boss/dottore/gallery/05-0125.jpg)
+
+**[Xem toàn bộ ảnh Dottore và tải video](docs/dottore-gallery.md)**. Replay offline; thông báo có thể sai hoặc muộn, chưa phải benchmark độc lập.
+
 ## Bộ dữ liệu tự xây dựng
 
 Bộ thu và công cụ gán nhãn được xây dựng để phục vụ chính các bài toán trong P.A.I.M.O.N, thay vì chỉ lưu ảnh rời rạc.
@@ -107,7 +135,7 @@ Map giải quyết việc nối **ảnh minimap đang thấy → vị trí trên
 - HUD bản đồ, điều hướng theo mục tiêu và cấu hình giao diện/phím tắt.
 - Chế độ thu thập đặc sản riêng: đánh dấu các điểm trong bán kính và chuyển mục tiêu tiếp theo.
 
-Đánh dấu theo bán kính là **ước lượng đã ghé điểm**, chưa phải nhận biết người chơi nhặt thành công. Hướng XY không phải tuyến đi tối ưu tránh vật cản. Đã có demo replay từ gameplay raw ở bên dưới; ảnh trên là giao diện catalog. [Chi tiết và các cảnh cần quay](docs/map.md).
+Đánh dấu theo bán kính là **ước lượng đã ghé điểm**, chưa phải nhận biết người chơi nhặt thành công. Hướng XY không phải tuyến đi tối ưu tránh vật cản. Đã có demo replay từ gameplay raw ở bên dưới; ảnh trên là giao diện catalog. [Chi tiết Map và giới hạn](docs/map.md).
 
 ### Demo Map từ video raw
 
@@ -155,7 +183,7 @@ Hai bản ghi gameplay được chạy lại qua bộ định vị và Map/HUD h
 
 | Tài nguyên | Phát hành |
 |---|---|
-| Demo Thằn Lằn | Video và ảnh trong repo |
+| Demo Thằn Lằn và Dottore | Video và ảnh trong repo |
 | Mẫu dataset | Trong `samples/lizard`, ảnh và nhãn chọn lọc |
 | Checkpoint detector + temporal | File ZIP ở [Releases](https://github.com/nbngoc123/P.A.I.M.O.N/releases/tag/lizard-showcase-v0.1), kèm hash và profile tương ứng |
 | Ứng dụng Windows EXE | Chưa phát hành công khai |

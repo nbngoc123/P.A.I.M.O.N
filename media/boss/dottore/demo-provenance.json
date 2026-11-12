@@ -1,0 +1,291 @@
+{
+  "boss": "Dottore",
+  "kind": "offline_raw_replay_with_live_inference_and_alert_manager",
+  "session_id": "20261108-233718-7e7c7523",
+  "raw_name": "2026-11-08 23-37-18.mkv",
+  "raw_sha256": "962fcbf0d88b17c6d6f199fc58207b4ab94b003183ce8dd1dad5d16ff4b37585",
+  "detector_sha256": "4abb86552d2bd93f01d0fff2476e0729547d24ae3534440577fcb33896d65b67",
+  "temporal_sha256": "4fb3a3885369dd87b6bdd53489ccf7219a0c2d0c3a9eda587566cf5e2c6b0800",
+  "detector_run": "dottore_1_pilot_v1-20261110-005907",
+  "temporal_run": "dottore_1_pilot_v1-20261110-014328",
+  "samples": 618,
+  "sample_fps": 4.999999999999929,
+  "execution_device": "0",
+  "alerts": [
+    {
+      "time_seconds": 4.4,
+      "label": "di_hai_co_vat",
+      "events": [
+        "di_hai_co_vat"
+      ],
+      "family": "mechanic",
+      "probability": 0.9894044995307922,
+      "message": "Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
+    },
+    {
+      "time_seconds": 5.0,
+      "label": "chuan_bi_don_dac_biet",
+      "events": [
+        "chuan_bi_don_dac_biet"
+      ],
+      "family": "boss_state",
+      "probability": 0.9663489460945129,
+      "message": "Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
+    },
+    {
+      "time_seconds": 11.8,
+      "label": "di_hai_co_vat",
+      "events": [
+        "di_hai_co_vat"
+      ],
+      "family": "mechanic",
+      "probability": 0.9452638626098633,
+      "message": "Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
+    },
+    {
+      "time_seconds": 13.8,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.8980132937431335,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 19.6,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.7631070017814636,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 27.2,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.7726040482521057,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 38.0,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.6911092400550842,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 48.2,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.8798365592956543,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 68.8,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.8504600524902344,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 73.8,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.9575636982917786,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 84.4,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.7440858483314514,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "time_seconds": 113.4,
+      "label": "suc_manh_mat_trang",
+      "events": [
+        "suc_manh_mat_trang"
+      ],
+      "family": "mechanic",
+      "probability": 0.8115654587745667,
+      "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    }
+  ],
+  "model_elapsed_ms_median": 85.37009998690337,
+  "warning": "Offline replay. Source may overlap training data. Not independent accuracy or live FPS evaluation. Alerts are model-triggered, not ground truth.",
+  "event_alerts": {
+    "global_cooldown_seconds": 0.5,
+    "schema_version": 2,
+    "policies": [
+      {
+        "event_id": "chieu_dac_biet_2",
+        "family": "boss_state",
+        "enabled": true,
+        "threshold": 0.98,
+        "reset_threshold": 0.83,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 10.0,
+        "message": "Chạy nhanh đến vùng cô lập để tránh sốc chết!"
+      },
+      {
+        "event_id": "chuan_bi_don_dac_biet",
+        "family": "boss_state",
+        "enabled": true,
+        "threshold": 0.95,
+        "reset_threshold": 0.73,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 2.0,
+        "message": "Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
+      },
+      {
+        "event_id": "idle_or_move",
+        "family": "boss_state",
+        "enabled": false,
+        "threshold": 0.8,
+        "reset_threshold": 0.65,
+        "confirm_seconds": 0.4,
+        "cooldown_seconds": 8.0,
+        "message": "Idle or move."
+      },
+      {
+        "event_id": "tung_chieu",
+        "family": "boss_state",
+        "enabled": false,
+        "threshold": 0.1,
+        "reset_threshold": 0.06,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 5.0,
+        "message": "Boss sắp hút năng lượng nguyên tố !"
+      },
+      {
+        "event_id": "tung_don_dac_biet",
+        "family": "boss_state",
+        "enabled": false,
+        "threshold": 0.81,
+        "reset_threshold": 0.6,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 2.0,
+        "message": "Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
+      },
+      {
+        "event_id": "di_hai_co_vat",
+        "family": "mechanic",
+        "enabled": true,
+        "threshold": 0.92,
+        "reset_threshold": 0.9,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 2.0,
+        "message": "Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
+      },
+      {
+        "event_id": "suc_manh_mat_trang",
+        "family": "mechanic",
+        "enabled": true,
+        "threshold": 0.65,
+        "reset_threshold": 0.53,
+        "confirm_seconds": 0.2,
+        "cooldown_seconds": 5.0,
+        "message": "Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+      }
+    ]
+  },
+  "video_sha256": "e230c7963e498ae058b106a4c21762a3a9b02c7197f840a2303927153c30d79f",
+  "video_bytes": 35397239,
+  "output_fps": 5,
+  "gallery": [
+    {
+      "file": "01-0015.jpg",
+      "frame_index": 15,
+      "time_seconds": 3.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "02-0024.jpg",
+      "frame_index": 24,
+      "time_seconds": 4.8,
+      "caption": "Cảnh báo do model kích hoạt: Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt."
+    },
+    {
+      "file": "03-0060.jpg",
+      "frame_index": 60,
+      "time_seconds": 12.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "04-0071.jpg",
+      "frame_index": 71,
+      "time_seconds": 14.2,
+      "caption": "Cảnh báo do model kích hoạt: Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
+    },
+    {
+      "file": "05-0125.jpg",
+      "frame_index": 125,
+      "time_seconds": 25.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "06-0200.jpg",
+      "frame_index": 200,
+      "time_seconds": 40.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "07-0275.jpg",
+      "frame_index": 275,
+      "time_seconds": 55.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "08-0350.jpg",
+      "frame_index": 350,
+      "time_seconds": 70.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "09-0425.jpg",
+      "frame_index": 425,
+      "time_seconds": 85.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "10-0500.jpg",
+      "frame_index": 500,
+      "time_seconds": 100.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "11-0550.jpg",
+      "frame_index": 550,
+      "time_seconds": 110.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "12-0600.jpg",
+      "frame_index": 600,
+      "time_seconds": 120.0,
+      "caption": "Box, tracking và điểm state/mechanic trong replay"
+    }
+  ]
+}

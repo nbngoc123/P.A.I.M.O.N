@@ -27,13 +27,15 @@ flowchart TD
 
 ## Những gì nhìn thấy trong demo
 
-Demo công khai chỉ dùng Thằn Lằn Ánh Trăng Bức Xạ. Các điểm state/mechanic được hiển thị theo thứ tự checkpoint; cảnh báo chạy từ điểm model với đúng cấu hình đã gán. Nhãn dataset không điều khiển việc phát cảnh báo trong demo.
+Demo công khai có Thằn Lằn Ánh Trăng Bức Xạ và Dottore, mỗi Boss dùng checkpoint và chính sách cảnh báo riêng trong profile. Các điểm state/mechanic được hiển thị theo thứ tự checkpoint; cảnh báo chạy từ điểm model với đúng cấu hình đã gán. Nhãn dataset không điều khiển việc phát cảnh báo trong demo.
 
 Video là replay offline có overlay được vẽ vào frame. Không dùng thời gian encode video để báo tốc độ Live. Phần capture trực tiếp game và overlay desktop đã có trong ứng dụng nội bộ; video quay trực tiếp sẽ là một loại minh chứng riêng.
 
 ## Bộ ảnh suy luận
 
 [Xem 12 ảnh từ nhiều thời điểm của phiên Thằn Lằn](boss-gallery.md), gồm box, tracking, điểm trạng thái và các cảnh báo do model kích hoạt. Ảnh lấy nguyên khung từ replay, không phải minh họa vẽ lại.
+
+[Xem bộ ảnh và video Dottore](dottore-gallery.md), lấy từ raw phiên `20261108-233718-7e7c7523`, có box, điểm state/mechanic và cảnh báo từ model.
 
 ## Huấn luyện và đánh giá
 
