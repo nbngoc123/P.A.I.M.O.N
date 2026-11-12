@@ -1,0 +1,109 @@
+{
+  "session": "20261112-210751-21172158",
+  "kind": "offline_raw_replay",
+  "mode": "chests",
+  "localization_summary": {
+    "session": "20261112-210751-21172158",
+    "raw_name": "2026-11-12 21-07-51.mkv",
+    "source_fps": 60.0,
+    "source_frames": 2353,
+    "duration_seconds": 39.21666666666667,
+    "sample_fps": 4.0,
+    "samples": 157,
+    "accepted": 155,
+    "status_counts": {
+      "matched": 46,
+      "tracked": 109,
+      "rejected": 2
+    },
+    "revision": "priority-teyvat-detail-floors-7a0a00040009",
+    "source_sha256": "a991dce79ea716332cf95fccf1e42ce47d8b60b1a3bdb67dbea49eaf072fa3d9",
+    "roi": [
+      61,
+      19,
+      212,
+      211
+    ],
+    "geometry": {
+      "schema_version": 1,
+      "shape": "circle",
+      "coordinate_space": "original_frame",
+      "image_width": 1920,
+      "image_height": 1080,
+      "center": [
+        167.0,
+        124.5
+      ],
+      "radius": 105.5,
+      "edge_inset": 7.385000000000001,
+      "exclude_rects": [],
+      "method": "user_positioned_circle"
+    },
+    "elapsed_seconds": 169.19847860001028,
+    "kind": "offline_raw_replay_using_existing_Tracker_localization_worker",
+    "clock": "Replay media time for temporal state, flow age and pose age. Wall time separately measured.",
+    "warning": "Not a live FPS benchmark. No reference coordinates or fabricated positions injected."
+  },
+  "target": {
+    "id": 90511,
+    "label_id": 44,
+    "label_name": "Exquisite Chest",
+    "x": -10351.185362577871,
+    "y": 481.3448517543211,
+    "area_id": 13,
+    "floor_id": null,
+    "z_level": 0,
+    "entrance_floor_ids": [],
+    "floor_ids": [],
+    "floor_names": []
+  },
+  "selected_label_id": 44,
+  "selected_label_ids": [
+    13,
+    17,
+    44,
+    45,
+    46,
+    269
+  ],
+  "display_radius_native": null,
+  "selection": "Real catalog pin/type selected for demonstration after inspecting replay route.",
+  "actions": [],
+  "mark_batches": [],
+  "undo_executed": false,
+  "screenshots": [
+    {
+      "file": "01-003.0s.jpg",
+      "time_seconds": 3.0,
+      "status": "tracked"
+    },
+    {
+      "file": "02-007.5s.jpg",
+      "time_seconds": 7.533333333333333,
+      "status": "matched"
+    },
+    {
+      "file": "03-012.0s.jpg",
+      "time_seconds": 12.0,
+      "status": "tracked"
+    },
+    {
+      "file": "04-016.5s.jpg",
+      "time_seconds": 16.533333333333335,
+      "status": "matched"
+    },
+    {
+      "file": "05-021.0s.jpg",
+      "time_seconds": 21.0,
+      "status": "matched"
+    }
+  ],
+  "output_frames": 360,
+  "output_fps": 15,
+  "renderer": "Original gvl.overlay.OverlayController, NavigationHUD, TargetNavigationHUD, MapCanvas",
+  "collection": "Original CollectionSession, isolated replay ledger. Proximity marking is not item-pickup recognition.",
+  "warning": "Offline replay. Scripted tool selections, not actions captured from the player. No fabricated coordinates.",
+  "video_bytes": 10667228,
+  "video_sha256": "2d77a9499b13cb43fa2288d9e8db7a4e8ad18edaa7a0e293b0e6fa40f105d48a",
+  "map_marker_meaning": "Imported catalog pins linked to minimap localization; not visual object detection or pickup confirmation."
+}

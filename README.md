@@ -82,29 +82,41 @@ Bộ ảnh được trích từ video dựng bằng suy luận lại video raw c
 
 ### Dottore — box, cơ chế và cảnh báo
 
-Suy luận raw từ phiên `20261108-233718-7e7c7523` bằng checkpoint đã gán trong profile Dottore. Các cảnh dưới đây lấy trực tiếp từ video đầu ra; cảnh báo phát từ điểm model và chính sách trong profile.
+Suy luận raw từ phiên `20261108-233718-7e7c7523` bằng checkpoint trong profile Dottore. Bộ ảnh minh họa Boss, Di Hài Cổ Nguyệt, vật thể mặt trăng, tín hiệu cơ chế và cảnh báo. Từng ảnh dưới đây đã được xem trực tiếp trước khi chọn.
 
 **4.8s — Cảnh báo do model kích hoạt: Nấp sau di hài cổ vật! Boss sắp tung đòn đặc biệt..**
 
 ![Demo Dottore](media/boss/dottore/gallery/02-0024.jpg)
 
+**7.0s — Box Dottore, Di Hài Cổ Nguyệt và vật thể mặt trăng; có cảnh báo từ model.**
+
+![Demo Dottore](media/boss/dottore/gallery/03-0035.jpg)
+
 **14.2s — Cảnh báo do model kích hoạt: Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!.**
 
 ![Demo Dottore](media/boss/dottore/gallery/04-0071.jpg)
 
-**3.0s — Box, tracking và điểm state/mechanic trong replay.**
+**30.2s — Box tín hiệu Sức mạnh mặt trăng; điểm mechanic khoảng 98%.**
 
-![Demo Dottore](media/boss/dottore/gallery/01-0015.jpg)
+![Demo Dottore](media/boss/dottore/gallery/reviewed-0151.jpg)
 
-**7.0s — Box Dottore, Di Hài Cổ Nguyệt và vật thể mặt trăng; có cảnh báo từ model.**
+**55.2s — Chiêu đặc biệt thứ hai: điểm model 91%, chưa đạt ngưỡng cảnh báo 98%.**
 
-![Demo Dottore](media/boss/dottore/gallery/03-0035.jpg)
+![Demo Dottore](media/boss/dottore/gallery/reviewed-0276.jpg)
+
+**78.8s — Cận cảnh Boss và box Sức mạnh mặt trăng.**
+
+![Demo Dottore](media/boss/dottore/gallery/reviewed-0394.jpg)
 
 **92.0s — Box Dottore trong cảnh chiến đấu; điểm trạng thái Boss tung chiêu.**
 
 ![Demo Dottore](media/boss/dottore/gallery/05-0460.jpg)
 
-**[Xem toàn bộ ảnh Dottore và tải video](docs/dottore-gallery.md)**. Replay offline; thông báo có thể sai hoặc muộn, chưa phải benchmark độc lập.
+**107.0s — Box Boss trước hiệu ứng xoáy không gian.**
+
+![Demo Dottore](media/boss/dottore/gallery/reviewed-0535.jpg)
+
+**[Xem toàn bộ 16 ảnh Dottore và tải video](docs/dottore-gallery.md)**. Replay offline; điểm model và cảnh báo chưa phải kết quả đánh giá trên phiên độc lập.
 
 ## Bộ dữ liệu tự xây dựng
 
@@ -159,7 +171,23 @@ Hai bản ghi gameplay được chạy lại qua bộ định vị và Map/HUD h
 
 ![Thu thập đặc sản và hoàn tác](media/map/replay/collection/event-undo.jpg)
 
-**[Xem toàn bộ ảnh và tải ba video Map](docs/map-gallery.md)**. Replay offline; khoảng cách XY theo đơn vị map. Thu thập đánh dấu theo bán kính, chưa nhận biết nhặt vật phẩm.
+**[Xem toàn bộ ảnh và tải sáu video Map](docs/map-gallery.md)**. Replay offline; khoảng cách XY theo đơn vị map. Thu thập đánh dấu theo bán kính, chưa nhận biết nhặt vật phẩm.
+
+### Xem vật xung quanh, tìm rương và Thần Đồng
+
+**Hiện các loại vật xung quanh.** Bật tất cả loại ghim trong catalog, lọc theo bán kính **60 đơn vị map** quanh vị trí suy luận. Bản đồ hiển thị các ghim trong vùng; dãy icon phụ liệt kê sáu điểm gần nhất. Ẩn chữ khoảng cách trên từng ghim để dễ xem nhiều loại cùng lúc.
+
+![Hiện các loại vật xung quanh](media/map/replay/nearby/02-007.5s.jpg)
+
+**Lọc và theo dõi rương.** Lọc nhóm rương, chọn một ghim rương thật trong catalog; HUD giữ mục tiêu, hiển thị icon, khoảng cách XY và hướng tương đối khi nhân vật/camera thay đổi.
+
+![Lọc và theo dõi rương](media/map/replay/chests/02-007.5s.jpg)
+
+**Lọc và theo dõi Thần Đồng.** Lọc các loại Thần Đồng trong catalog. Ví dụ trong clip Snezhnaya theo dõi **Cryoculus**, có icon riêng, hướng và khoảng cách cập nhật theo vị trí.
+
+![Lọc và theo dõi Thần Đồng](media/map/replay/oculus/05-021.0s.jpg)
+
+[Xem các bộ lọc, toàn bộ ảnh và sáu video Map](docs/map-gallery.md).
 
 ### Các góc nhìn giao diện Map
 

@@ -216,10 +216,18 @@
   "output_fps": 5,
   "gallery": [
     {
-      "file": "01-0015.jpg",
-      "frame_index": 15,
-      "time_seconds": 3.0,
-      "caption": "Box, tracking và điểm state/mechanic trong replay"
+      "file": "reviewed-0002.jpg",
+      "frame_index": 2,
+      "time_seconds": 0.4,
+      "caption": "Box Dottore ở đầu bản ghi; điểm chuẩn bị tung đòn khoảng 75%",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
+    },
+    {
+      "file": "reviewed-0017.jpg",
+      "frame_index": 17,
+      "time_seconds": 3.4,
+      "caption": "Boss và Di Hài Cổ Nguyệt ở góc nhìn gần",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
     },
     {
       "file": "02-0024.jpg",
@@ -234,22 +242,31 @@
       "caption": "Box Dottore, Di Hài Cổ Nguyệt và vật thể mặt trăng; có cảnh báo từ model"
     },
     {
+      "file": "reviewed-0040.jpg",
+      "frame_index": 40,
+      "time_seconds": 8.0,
+      "caption": "Boss, ba Di Hài Cổ Nguyệt và vật thể mặt trăng trong cùng khung hình",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
+    },
+    {
       "file": "04-0071.jpg",
       "frame_index": 71,
       "time_seconds": 14.2,
       "caption": "Cảnh báo do model kích hoạt: Boss sắp hút năng lượng nguyên tố hoặc di chuyển ngược!"
     },
     {
-      "file": "06-0200.jpg",
-      "frame_index": 200,
-      "time_seconds": 40.0,
-      "caption": "Box, tracking và điểm state/mechanic trong replay"
+      "file": "reviewed-0151.jpg",
+      "frame_index": 151,
+      "time_seconds": 30.2,
+      "caption": "Box tín hiệu Sức mạnh mặt trăng; điểm mechanic khoảng 98%",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
     },
     {
-      "file": "07-0275.jpg",
-      "frame_index": 275,
-      "time_seconds": 55.0,
-      "caption": "Box, tracking và điểm state/mechanic trong replay"
+      "file": "reviewed-0276.jpg",
+      "frame_index": 276,
+      "time_seconds": 55.2,
+      "caption": "Chiêu đặc biệt thứ hai: điểm model 91%, chưa đạt ngưỡng cảnh báo 98%",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
     },
     {
       "file": "08-0350.jpg",
@@ -258,10 +275,24 @@
       "caption": "Box, tracking và điểm state/mechanic trong replay"
     },
     {
+      "file": "reviewed-0394.jpg",
+      "frame_index": 394,
+      "time_seconds": 78.8,
+      "caption": "Cận cảnh Boss và box Sức mạnh mặt trăng",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
+    },
+    {
       "file": "09-0425.jpg",
       "frame_index": 425,
       "time_seconds": 85.0,
       "caption": "Box, tracking và điểm state/mechanic trong replay"
+    },
+    {
+      "file": "reviewed-0451.jpg",
+      "frame_index": 451,
+      "time_seconds": 90.2,
+      "caption": "Boss tung chiêu: box Boss và điểm model gần 100%",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
     },
     {
       "file": "05-0460.jpg",
@@ -270,22 +301,38 @@
       "caption": "Box Dottore trong cảnh chiến đấu; điểm trạng thái Boss tung chiêu"
     },
     {
-      "file": "10-0500.jpg",
-      "frame_index": 500,
-      "time_seconds": 100.0,
-      "caption": "Box, tracking và điểm state/mechanic trong replay"
+      "file": "reviewed-0535.jpg",
+      "frame_index": 535,
+      "time_seconds": 107.0,
+      "caption": "Box Boss trước hiệu ứng xoáy không gian",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
+    },
+    {
+      "file": "reviewed-0543.jpg",
+      "frame_index": 543,
+      "time_seconds": 108.6,
+      "caption": "Tracking ID 101 được giữ qua cảnh xoáy; điểm đứng/di chuyển 83%",
+      "visual_review": "Full-resolution inspection: visible boss/mechanic, no cutscene or selected spurious HUD boxes."
     },
     {
       "file": "11-0550.jpg",
       "frame_index": 550,
       "time_seconds": 110.0,
       "caption": "Box, tracking và điểm state/mechanic trong replay"
-    },
-    {
-      "file": "12-0600.jpg",
-      "frame_index": 600,
-      "time_seconds": 120.0,
-      "caption": "Box, tracking và điểm state/mechanic trong replay"
     }
-  ]
+  ],
+  "curation": {
+    "method": "Manual full-resolution review of published gallery and additional candidate frames.",
+    "excluded_gallery_frames": [
+      15,
+      200,
+      500,
+      600
+    ],
+    "replaced_frame": {
+      "old": 275,
+      "new": 276
+    },
+    "purpose": "Illustrative scenes; full inference video remains unedited and is not an accuracy benchmark."
+  }
 }

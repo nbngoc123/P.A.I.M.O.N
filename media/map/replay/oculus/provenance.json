@@ -1,0 +1,121 @@
+{
+  "session": "20261112-211224-4678a89b",
+  "kind": "offline_raw_replay",
+  "mode": "oculus",
+  "localization_summary": {
+    "session": "20261112-211224-4678a89b",
+    "raw_name": "2026-11-12 21-12-24.mkv",
+    "source_fps": 60.0,
+    "source_frames": 2055,
+    "duration_seconds": 34.25,
+    "sample_fps": 4.0,
+    "samples": 137,
+    "accepted": 134,
+    "status_counts": {
+      "rejected": 3,
+      "tracked": 94,
+      "matched": 40
+    },
+    "revision": "priority-teyvat-detail-floors-7a0a00040009",
+    "source_sha256": "a991dce79ea716332cf95fccf1e42ce47d8b60b1a3bdb67dbea49eaf072fa3d9",
+    "roi": [
+      61,
+      19,
+      212,
+      211
+    ],
+    "geometry": {
+      "schema_version": 1,
+      "shape": "circle",
+      "coordinate_space": "original_frame",
+      "image_width": 1920,
+      "image_height": 1080,
+      "center": [
+        167.0,
+        124.5
+      ],
+      "radius": 105.5,
+      "edge_inset": 7.385000000000001,
+      "exclude_rects": [],
+      "method": "user_positioned_circle"
+    },
+    "elapsed_seconds": 180.2750029999297,
+    "kind": "offline_raw_replay_using_existing_Tracker_localization_worker",
+    "clock": "Replay media time for temporal state, flow age and pose age. Wall time separately measured.",
+    "warning": "Not a live FPS benchmark. No reference coordinates or fabricated positions injected."
+  },
+  "target": {
+    "id": 106286,
+    "label_id": 833,
+    "label_name": "Cryoculus",
+    "x": -4795.500539261822,
+    "y": -7676.999520469422,
+    "area_id": 16,
+    "floor_id": null,
+    "z_level": 0,
+    "entrance_floor_ids": [],
+    "floor_ids": [],
+    "floor_names": []
+  },
+  "selected_label_id": 833,
+  "selected_label_ids": [
+    5,
+    6,
+    194,
+    403,
+    508,
+    626,
+    694,
+    833
+  ],
+  "display_radius_native": null,
+  "selection": "Real catalog pin/type selected for demonstration after inspecting replay route.",
+  "actions": [],
+  "mark_batches": [],
+  "undo_executed": false,
+  "screenshots": [
+    {
+      "file": "01-003.0s.jpg",
+      "time_seconds": 3.0,
+      "status": "tracked"
+    },
+    {
+      "file": "02-007.5s.jpg",
+      "time_seconds": 7.533333333333333,
+      "status": "matched"
+    },
+    {
+      "file": "03-012.0s.jpg",
+      "time_seconds": 12.0,
+      "status": "tracked"
+    },
+    {
+      "file": "04-016.5s.jpg",
+      "time_seconds": 16.533333333333335,
+      "status": "matched"
+    },
+    {
+      "file": "05-021.0s.jpg",
+      "time_seconds": 21.0,
+      "status": "tracked"
+    },
+    {
+      "file": "06-025.5s.jpg",
+      "time_seconds": 25.533333333333335,
+      "status": "tracked"
+    },
+    {
+      "file": "07-030.0s.jpg",
+      "time_seconds": 30.0,
+      "status": "tracked"
+    }
+  ],
+  "output_frames": 510,
+  "output_fps": 15,
+  "renderer": "Original gvl.overlay.OverlayController, NavigationHUD, TargetNavigationHUD, MapCanvas",
+  "collection": "Original CollectionSession, isolated replay ledger. Proximity marking is not item-pickup recognition.",
+  "warning": "Offline replay. Scripted tool selections, not actions captured from the player. No fabricated coordinates.",
+  "video_bytes": 17437824,
+  "video_sha256": "cb1e73109c03d0d8799e02f02f679e95048673ab3c33449fdd3485db26d3fdad",
+  "map_marker_meaning": "Imported catalog pins linked to minimap localization; not visual object detection or pickup confirmation."
+}

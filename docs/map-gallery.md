@@ -124,3 +124,90 @@ Bán kính 17 đơn vị map; đã ghi nhận 1 lượt đánh dấu với 3 ghi
 
 ![Thu thập đặc sản và hoàn tác](../media/map/replay/collection/07-030.0s.jpg)
 
+
+## Các chế độ hiển thị và tìm mục tiêu
+
+Ba ví dụ bổ sung dùng cùng kết quả định vị từ hai bản ghi raw; thay bộ lọc và mục tiêu bằng chức năng Map/HUD gốc. Ghim lấy từ catalog bản đồ, chưa phải phát hiện rương/Thần Đồng trực tiếp trong ảnh game hoặc xác nhận chúng còn chưa thu thập.
+
+### Hiện các loại vật xung quanh
+
+[Tải video 18.0s](https://raw.githubusercontent.com/nbngoc123/P.A.I.M.O.N/main/media/map/replay/nearby/demo.mp4) · [Nguồn và bộ lọc](../media/map/replay/nearby/provenance.json)
+
+Bật tất cả loại ghim trong catalog, lọc theo bán kính **60 đơn vị map** quanh vị trí suy luận. Bản đồ hiển thị các ghim trong vùng; dãy icon phụ liệt kê sáu điểm gần nhất. Ẩn chữ khoảng cách trên từng ghim để dễ xem nhiều loại cùng lúc.
+
+**3.0s — Hiện các loại vật xung quanh.**
+
+![Hiện các loại vật xung quanh](../media/map/replay/nearby/01-003.0s.jpg)
+
+**7.5s — Hiện các loại vật xung quanh.**
+
+![Hiện các loại vật xung quanh](../media/map/replay/nearby/02-007.5s.jpg)
+
+**12.0s — Hiện các loại vật xung quanh.**
+
+![Hiện các loại vật xung quanh](../media/map/replay/nearby/03-012.0s.jpg)
+
+**16.5s — Hiện các loại vật xung quanh.**
+
+![Hiện các loại vật xung quanh](../media/map/replay/nearby/04-016.5s.jpg)
+
+### Lọc và theo dõi rương
+
+[Tải video 24.0s](https://raw.githubusercontent.com/nbngoc123/P.A.I.M.O.N/main/media/map/replay/chests/demo.mp4) · [Nguồn và bộ lọc](../media/map/replay/chests/provenance.json)
+
+Lọc nhóm rương, chọn một ghim rương thật trong catalog; HUD giữ mục tiêu, hiển thị icon, khoảng cách XY và hướng tương đối khi nhân vật/camera thay đổi.
+
+**3.0s — Lọc và theo dõi rương.**
+
+![Lọc và theo dõi rương](../media/map/replay/chests/01-003.0s.jpg)
+
+**7.5s — Lọc và theo dõi rương.**
+
+![Lọc và theo dõi rương](../media/map/replay/chests/02-007.5s.jpg)
+
+**12.0s — Lọc và theo dõi rương.**
+
+![Lọc và theo dõi rương](../media/map/replay/chests/03-012.0s.jpg)
+
+**16.5s — Lọc và theo dõi rương.**
+
+![Lọc và theo dõi rương](../media/map/replay/chests/04-016.5s.jpg)
+
+**21.0s — Lọc và theo dõi rương.**
+
+![Lọc và theo dõi rương](../media/map/replay/chests/05-021.0s.jpg)
+
+### Lọc và theo dõi Thần Đồng
+
+[Tải video 34.0s](https://raw.githubusercontent.com/nbngoc123/P.A.I.M.O.N/main/media/map/replay/oculus/demo.mp4) · [Nguồn và bộ lọc](../media/map/replay/oculus/provenance.json)
+
+Lọc các loại Thần Đồng trong catalog. Ví dụ trong clip Snezhnaya theo dõi **Cryoculus**, có icon riêng, hướng và khoảng cách cập nhật theo vị trí.
+
+**3.0s — Lọc và theo dõi Thần Đồng.**
+
+![Lọc và theo dõi Thần Đồng](../media/map/replay/oculus/01-003.0s.jpg)
+
+**7.5s — Lọc và theo dõi Thần Đồng.**
+
+![Lọc và theo dõi Thần Đồng](../media/map/replay/oculus/02-007.5s.jpg)
+
+**12.0s — Lọc và theo dõi Thần Đồng.**
+
+![Lọc và theo dõi Thần Đồng](../media/map/replay/oculus/03-012.0s.jpg)
+
+**16.5s — Lọc và theo dõi Thần Đồng.**
+
+![Lọc và theo dõi Thần Đồng](../media/map/replay/oculus/04-016.5s.jpg)
+
+**21.0s — Lọc và theo dõi Thần Đồng.**
+
+![Lọc và theo dõi Thần Đồng](../media/map/replay/oculus/05-021.0s.jpg)
+
+**25.5s — Lọc và theo dõi Thần Đồng.**
+
+![Lọc và theo dõi Thần Đồng](../media/map/replay/oculus/06-025.5s.jpg)
+
+**30.0s — Lọc và theo dõi Thần Đồng.**
+
+![Lọc và theo dõi Thần Đồng](../media/map/replay/oculus/07-030.0s.jpg)
+

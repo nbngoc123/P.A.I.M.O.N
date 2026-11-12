@@ -106,7 +106,7 @@ Chế độ này có mục tiêu và tiến độ riêng với tracking thườn
 
 ## Demo từ video raw đã bổ sung
 
-[Xem bộ ảnh và ba video: định vị, điều hướng, thu thập/hoàn tác](map-gallery.md).
+[Xem bộ ảnh và sáu video: định vị, điều hướng, thu thập, vật xung quanh, rương và Thần Đồng](map-gallery.md).
 
 Phiên `20261112-210751-21172158` dùng cho định vị/bám vị trí; phiên `20261112-211224-4678a89b` dùng cho điều hướng tới ghim và thu thập đặc sản. HUD được dựng từ code Qt gốc bằng kết quả định vị, không lấy tọa độ từ game memory. Tiến độ demo tách riêng khỏi hồ sơ chơi.
 
